@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <hr><hr>
+        <h1>Malware image dataset</h1>
+        <hr>
+
+    <h3><a href="https://sarvamblog.blogspot.com/2014/08/supervised-classification-with-k-fold.html">1 . Sarvamblog </a>
+<br><br><br>
+<a href="https://vision.ece.ucsb.edu/research/signal-processing-malware-analysis">2. Vision.ece</a>
+    </h3>
+
+    <hr>
+
+    <h3>
+        <br>
+        <b>One-shot Learning</b><br>
+-----------------<br>
+Siamese Neural Network - 3 videos<br>
+https://www.youtube.com/watch?v=4S-XDefSjTM<br>
+
+
+https://www.analyticsvidhya.com/blog/2021/05/an-introduction-to-few-shot-learning/<br>
+
+
+
+Github<br>
+https://github.com/sicara/easy-few-shot-learning<br>
+https://github.com/wbw520/MTUNet<br>
+
+
+Example<br>
+Task<br>
+MalImg = 25 Families --> 9600 samples (images)<br>
+Test = 600 samples<br>
+Train = 9000 samples<br>
+Support Set = one samples from each of 25 families (25 sample)<br>
+   = 9000 - 25<br>
+SNN Program (9000-25 samples)<br>
+Test 600 samples considered and their similarity is computed<br>
+with 25 samples in support set<br>
+
+Eg: Test samples 1;<br>
+dist(1, S1)<br>
+dist(1, S2)<br>
+.<br>
+.<br>
+dist(1,S25)<br>
+
+min(dist(1,S1), ...., dist(1,S25)  ==> dist(1,S10) ==> 1 belong to same class as 10th sample in Support Set<br>
+---------------------------------------------------------------------<br>
+APK<br>
+Contagio Mobile Dump<br>
+Virusshare<br>
+Drebin<br>
+
+---------------------------------------------------------------------<br>
+Opcode-- ASM Files<br>
+Desktop malware images<br>
+APK Images<br>
+
+    </h3>
+
+    
+
+    <hr><hr>
+</center>
+</body>
+</html>
