@@ -1,9 +1,9 @@
-body            
-{
-    margin:auto;
-    width:1024px;
-    padding:10px;
-    background-color:#ebebeb;
-    font-size:17px;
-    font-family:Verdana;
+body{
+    padding: 1em;
+    max-width: 2000px;
+    margin: auto;
+    font-family: 'Lora', serif;
+    line-height: 1.4em;
+    color: var(--fg-color);
+    background-color: var(--bg-color);
 }
