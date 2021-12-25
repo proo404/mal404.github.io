@@ -1,9 +1,19 @@
-body{
-    padding: 1em;
-    max-width: 2000px;
-    margin: auto;
-    font-family: 'Lora', serif;
-    line-height: 1.4em;
-    color: var(--fg-color);
-    background-color: var(--bg-color);
+.body            
+{
+    margin:auto;
+    width:1024px;
+    padding:10px;
+    background-color:#ffb5b5;
+    font-size: x-large;
+    
+}
+
+.table
+{
+    font-size: xx-large;
+}
+
+.a
+{
+    font-size: large;
 }
